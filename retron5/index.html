@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>
+      Retron 5 HBE
+    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100&family=Press+Start+2P&family=Russo+One&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="" href="/styles/r5hbe.css">
+    <link rel="stylesheet" type="" href="/styles/nav.css">
+    <script src="/scripts/nav.js" type="module"> </script>
+    <script>
+    function addOne() {
+      document.querySelector("a#cart").innerText += 1;
+    }
+    </script>
+  </head>
+  <body>
+    <div id="nav"> </div>
+    <section id="intro">
+
+    </section>
+    <section id="design">
+      <div>
+        <img src="/images/retron5InputMap.jpeg" alt="">
+        <h3>The Retron 5 has support for many legacy consoles such as the NES, SNES, GBA, GBC, and more!</h3>
+      </div>
+      <div>
+        <img src="/images/retron5-HBE.jpeg" alt="Retron 5 Hyper Beach Edition" />
+        <h3>All of these games will be upscaled on the fly by the consoles to produce a high definition output while staying true to the original style</h3>
+      </div>
+      
+      <div>
+        <img src="/images/retron5Remote.jpeg" alt="">
+        <h3>The Retron 5 also has a very user customizable gaming experience that allows the user to make many changes on the fly!</h3>   
+      </div>
+      
+    </section>
+    <section id="cart">
+      <h3>$179.99</h3>
+      <button type="button" onclick="addOne()">Add to cart <img src="/images/add_shopping_cart_black_24dp.svg" alt="Add to cart button"></button>
+    </section>
+
+  </body>
+</html>
